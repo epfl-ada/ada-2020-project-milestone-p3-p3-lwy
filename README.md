@@ -23,10 +23,13 @@ The dataset is highly imbalanced because few people subscribe the bank term depo
 
 ### 5.	Methods
 Data collection: (a) Collect the dataset from UCI Machine learning Repository (b) Discard the rows containing missing values in the dataset (c) Determining the categorical features and numerical features (d) Visualize the relationship between features and dependent variable y (e) Get the proper features
+
 Building the logistic regression model: After getting the proper dataset and features, we will use these data to build three logistic regression models with no regularization, L1 norm and L2 norm regularization, respectively. Then we use ten-fold cross validation to plot the ROC curve, and calculate the AUC score and F1 score of each model. Finally, we will get the best model.
 
 Building the random forest model: After selecting proper features, we will build a random forest model with different hyperparameters. We will test different hyperparameters, and use ten-fold cross validation to calculate the average accuracy with 95% confidence intervals. Then, we select the best hyperparameters. 
+
 Compare logistic regression model and random forest model: We use ten-fold cross validation to plot the ROC curve, and calculate the AUC score and F1 score of the best logistic regression model and the best random forest model respectively. Then, we compare the results.
+
 Data analysis: We will visualize the variable importance by mean decrease in Gini Score of random forest model. Second, we analyze the importance of the features. Third, we will draw the partial dependence plots. We will analyze how the percentage of total votes for subscribing the bank term deposit changes over the range of each predictor. Finally, we summarize the causes of subscribing bank term deposits. Also, we indicate which clients are more likely to subscribe the bank term deposit.
 
 ### 6.	Proposed timeline
