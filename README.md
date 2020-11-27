@@ -14,7 +14,7 @@ The previous paper compares the logistic regression and random forest in predict
 5. What is the most important factor affecting a client subscribe a term deposit? Which clients are more likely to subscribe a term deposit?
 
 4.	Proposed datasets
-o	bank-additional-full.csv from “Bank Marketing Data Set” UCI machine learning repository. There are 41188 observations each with 20 features such as a client’s age, sex and job. The observations are ordered by date (from May 2008 to November 2010). The dependent variable is ‘y’ indicating whether a client subscribe the bank term deposit. 
+-	bank-additional-full.csv from “Bank Marketing Data Set” UCI machine learning repository. There are 41188 observations each with 20 features such as a client’s age, sex and job. The observations are ordered by date (from May 2008 to November 2010). The dependent variable is ‘y’ indicating whether a client subscribe the bank term deposit. 
 The dataset is highly imbalanced because few people subscribe the bank term deposit. The ratio of subscribed (‘Yes’) bank term deposit and not ('no') subscribed in the data is roughly 1:70. In addition, there are missing or unknown values such as ‘education’, ‘housing’ and ‘loan’ in the dataset because some people would not like to tell their private information to the banking representative. We will discard the rows containing missing values. 
 
 5.	Methods
@@ -30,12 +30,12 @@ Week 2: Comparing the predictive performances of the best logistic regression mo
 Week 3: Continuing with analysis, preparing the data story and short video.
 
 7.	Organization within the team
-o	Bohan will handle downloading the dataset from UCI machine learning repository in week 1. Bohan will clean and preprocess the dataset. The resulting code and datasets will be shared with the other members of the team. 
-o	At the end of week 1 (or earlier if time allows it), Zengyu will implement the logistic regression algorithm with different hyperparameters on the dataset. Zengyu will use cross validation to test and select the best hyperparameters of logistic regression model. Qunyou will focus on building random forest model with different hyperparameters. Qunyou will use cross validation to test and select the best hyperparameters model. The testing results of each model will be recorded for further process.
-o	In week 2, Bohan will apply ten-fold cross validation to the best logistic regression model and the best random forest model. Bohan will plot the ROC curve, and calculate the AUC score and F1 score of each model. The results are compared at the same time.
-o	In week2, Zengyu and Qunyou will visualize the variable importance by mean decrease in Gini Score of random forest model. Also, Zengyu and Qunyou will draw the partial dependence plots. 
-o	At the end of week 2, we will work together, and discuss the results.
-o	In week 3, Bohan and Zengyu will focus on writing the data story and preparing all needed figures and examples.
-o	In week 3, Qunyou will focus on preparing the short video with the main ideas, and will discuss the resulting figures and values with Bohan and Zengyu.
+-	Bohan will handle downloading the dataset from UCI machine learning repository in week 1. Bohan will clean and preprocess the dataset. The resulting code and datasets will be shared with the other members of the team. 
+-	At the end of week 1 (or earlier if time allows it), Zengyu will implement the logistic regression algorithm with different hyperparameters on the dataset. Zengyu will use cross validation to test and select the best hyperparameters of logistic regression model. Qunyou will focus on building random forest model with different hyperparameters. Qunyou will use cross validation to test and select the best hyperparameters model. The testing results of each model will be recorded for further process.
+-	In week 2, Bohan will apply ten-fold cross validation to the best logistic regression model and the best random forest model. Bohan will plot the ROC curve, and calculate the AUC score and F1 score of each model. The results are compared at the same time.
+-	In week2, Zengyu and Qunyou will visualize the variable importance by mean decrease in Gini Score of random forest model. Also, Zengyu and Qunyou will draw the partial dependence plots. 
+-	At the end of week 2, we will work together, and discuss the results.
+-	In week 3, Bohan and Zengyu will focus on writing the data story and preparing all needed figures and examples.
+-	In week 3, Qunyou will focus on preparing the short video with the main ideas, and will discuss the resulting figures and values with Bohan and Zengyu.
 
 
