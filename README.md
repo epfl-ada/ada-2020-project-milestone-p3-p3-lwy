@@ -7,11 +7,11 @@ Milestone P3:
 The previous paper compares the logistic regression and random forest in predicting the rare political events, civil war. Also, the authors analyze the variable importance for random forests such as to determine the causes of civil war onset. We propose to study the power of random forest in predicting rare events in another field. We will use a dataset recording direct marketing campaigns (bank term deposit) of a Portuguese banking institution. The subscriptions of the bank term deposit are based on phone calls, so this is a rare event. We plan to apply random forest and logistic regression method to predict if a client will subscribe a term deposit in the bank, and compare their predictive accuracies. Then, we will analyze the causal effects in the subscription of a term deposit from a bank. Finally, we could indicate which clients are more likely to subscribe for term deposits. 
 
 3.	Research questions
-1. What is the accuracy of random forests in predicting the rare event in a new filed?
-2. Can random forests predict the subscriptions of the bank term deposit efficiently and generally?
-3. To what extent does random forest outperform logistic regression method in predicting the rare events, subscription of the bank term deposit?
-4. Is there a causal effect of a client subscribing a bank term deposit?
-5. What is the most important factor affecting a client subscribe a term deposit? Which clients are more likely to subscribe a term deposit?
+-1. What is the accuracy of random forests in predicting the rare event in a new filed?
+-2. Can random forests predict the subscriptions of the bank term deposit efficiently and generally?
+-3. To what extent does random forest outperform logistic regression method in predicting the rare events, subscription of the bank term deposit?
+-4. Is there a causal effect of a client subscribing a bank term deposit?
+-5. What is the most important factor affecting a client subscribe a term deposit? Which clients are more likely to subscribe a term deposit?
 
 4.	Proposed datasets
 -	bank-additional-full.csv from “Bank Marketing Data Set” UCI machine learning repository. There are 41188 observations each with 20 features such as a client’s age, sex and job. The observations are ordered by date (from May 2008 to November 2010). The dependent variable is ‘y’ indicating whether a client subscribe the bank term deposit. 
