@@ -22,11 +22,11 @@ The previous paper compares the logistic regression and random forest in predict
 The dataset is highly imbalanced because few people subscribe the bank term deposit. The ratio of subscribed (‘Yes’) bank term deposit and not ('no') subscribed in the data is roughly 1:8. In addition, there are missing or unknown values such as ‘education’, ‘housing’ and ‘loan’ in the dataset because some people would not like to tell their private information to the banking representative. We will discard the rows containing missing values. 
 
 ### 5.	Methods
-Data collection: (a) Collect the dataset from UCI Machine learning Repository (b) Discard the rows containing missing values in the dataset (c) Determining the categorical features and numerical features (d) Visualize the relationship between features and dependent variable y (e) Get the proper features
+Data collection: (a) Collect the dataset from UCI Machine learning Repository (b) Fill the rows containing missing values in the dataset (c) Determining the categorical features and numerical features (d) Visualize the relationship between features and dependent variable y (e) Get the proper features (f) Use SMOTE to oversample minority class samples
 
-Building the logistic regression model: After getting the proper dataset and features, we will use these data to build three logistic regression models with no regularization, L1 norm and L2 norm regularization, respectively. Then we use ten-fold cross validation to plot the ROC curve, and calculate the AUC score and F1 score of each model. Finally, we will get the best model.
+Building the logistic regression model: After getting the proper dataset and features, we will use these data to build three logistic regression models with no regularization, L1 norm and L2 norm regularization, respectively. Then we use ten-fold cross validation and grid search to find the best hyperparameters. Finally, we will get the best model.
 
-Building the random forest model: After selecting proper features, we will build a random forest model with different hyperparameters. We will test different hyperparameters, and use ten-fold cross validation to calculate the average accuracy with 95% confidence intervals. Then, we select the best hyperparameters. 
+Building the random forest model: After selecting proper features, we will build a random forest model with different hyperparameters. We will use ten-fold cross validation and grid search to select the best hyperparameters. 
 
 Compare logistic regression model and random forest model: We use ten-fold cross validation to plot the ROC curve, and calculate the AUC score and F1 score of the best logistic regression model and the best random forest model respectively. Then, we compare the results.
 
