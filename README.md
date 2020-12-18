@@ -55,3 +55,9 @@ Week 3: Continuing with analysis, preparing the data story and short video.
 -	In week 3, Qunyou will focus on preparing the short video with the main ideas, and will discuss the resulting figures and values with Bohan and Zengyu.
 
 
+## contributions of all group members updating
+- After two weeks of hard work, Our project ended. Each member made a great contribution to the exploration of dataset.
+- Liu was in charge of data cleaning, and implemented the logistic regression upon the dataset.
+- Yan was responsible for random forest practice with Wang together, and she made a great job in Report writing.
+- Wang made a great contribution to our model and visualization, and he proposed multiple several creative methods to handle our dataset, such as SMOTE.
+- After that, we all discussed the result and compared the difference from these models. Analyzation was made by us together.
